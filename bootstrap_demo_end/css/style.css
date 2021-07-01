@@ -1,0 +1,182 @@
+.navbar{
+	background:#4DA2CD;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #1B3445;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#1B3445 !important;
+}
+
+
+/*header style*/
+.header{
+	height: 100vh;
+	position: relative;
+	background-image: url('../images/logo.png');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(200, 200, 200, 0.7);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#1B3445 ;
+}
+.description p{
+	color:#000;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #1B3445;
+	background:#1B3445;
+	color:#fff;
+}
+
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#1B3445;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #4DA2CD;
+}
+.about .desc h3{
+	color: #4DA2CD;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+/*blog style*/
+
+.blog{
+	margin: 4em 0;
+	position: relative;	
+}
+.blog h1{
+	color:#1B3445;
+	margin: 2em;	
+}
+.blog .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+	width: 100%;
+	height: 12em;
+}
+
+.blog .card-title{
+	color:#1B3445;
+	 
+}
+.blog .card-body{
+	padding: 1em;
+}
+
+
+
+.team{
+	margin: 4em 0;
+	position: relative;
+
+}
+.team h1{
+	color:#1B3445;
+	margin: 2em;	
+}
+.team .item{
+	position: relative;
+	overflow: hidden;	
+}
+.team .des{
+	background: #1B3445;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+.team .item:hover .des{
+	height: 100%;
+	background:#E6C372;
+    position: absolute;
+	width: 100%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+
+
+
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #1B3445; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #1B3445;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
